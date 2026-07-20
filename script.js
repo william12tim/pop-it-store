@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Обработка нажатий на кнопки "КУПИТЬ"
   const buyButtons = document.querySelectorAll('.hero__btn, .card__btn');
 
   buyButtons.forEach((button) => {
@@ -18,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Плавная прокрутка к блокам при клике на шапку
   const navLinks = document.querySelectorAll('.header__link');
 
   navLinks.forEach((link) => {
